@@ -1,0 +1,85 @@
+{
+  "sections": {
+    "164409846022b3be6a": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "title": "Daniel Wester",
+        "text": "<p><em>artist<\/em><\/p>",
+        "text_size_mobile": "text-2xl",
+        "text_size_desktop": "lg:text-6xl",
+        "font": "heading",
+        "text_alignment": "text-left",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_style": "link",
+        "desktop_width": "half",
+        "desktop_alignment": "left",
+        "color_scheme": "primary"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "crop": "0",
+        "image_width_desktop": "one_half",
+        "indent_image": false,
+        "show_author": false,
+        "show_date": false,
+        "show_share_buttons": true,
+        "show_tags": false,
+        "show_next_previous_links": false,
+        "color_scheme": "primary",
+        "override_header_footer_color_scheme": false
+      }
+    },
+    "1649168655b428c3e3": {
+      "type": "custom-links-with-image",
+      "blocks": {
+        "1649168655911ba303-0": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/collections\/all",
+            "text": "Link"
+          }
+        },
+        "1649168655911ba303-1": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/collections\/all",
+            "text": "Link"
+          }
+        },
+        "1649168655911ba303-2": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/collections\/all",
+            "text": "Link"
+          }
+        }
+      },
+      "block_order": [
+        "1649168655911ba303-0",
+        "1649168655911ba303-1",
+        "1649168655911ba303-2"
+      ],
+      "settings": {
+        "text_size_mobile": "text-2xl",
+        "text_size_desktop": "lg:text-5xl",
+        "text_alignment": "text-left",
+        "text_position": "items-center",
+        "superscript": "none",
+        "image_position": "right",
+        "image_size": "half",
+        "fill_image": false,
+        "indent_image": false,
+        "color_scheme": "primary"
+      }
+    }
+  },
+  "order": [
+    "164409846022b3be6a",
+    "main",
+    "1649168655b428c3e3"
+  ]
+}

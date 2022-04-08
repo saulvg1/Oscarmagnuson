@@ -1,0 +1,128 @@
+{
+  "sections": {
+    "16408993387cf5c814": {
+      "type": "product-list",
+      "disabled": true,
+      "settings": {
+        "title": "COLORS {{ product.title }}",
+        "collection": "debbie",
+        "product_image_display": "show",
+        "text_size": "text-base lg:text-lg",
+        "product_limit": 24,
+        "show_vendor": false,
+        "show_view_all": false,
+        "color_scheme": "primary"
+      }
+    },
+    "main": {
+      "type": "main-product-new",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "option_style": "text_slash",
+            "hide_option_labels": false
+          }
+        },
+        "c8b1313a-85ee-4210-a299-4b556b3a7b1f": {
+          "type": "size",
+          "settings": {
+            "frame_width": "{{ product.metafields.my_fields.frame_width | metafield_text }}",
+            "nose_fit": "{{ product.metafields.my_fields.nose_fit.value }}"
+          }
+        },
+        "f33395da-f796-4677-8ebc-1bc63c9febf7": {
+          "type": "popup",
+          "settings": {
+            "icon": "none",
+            "text": "size guide",
+            "page": "size-guide",
+            "text_color": "secondary"
+          }
+        },
+        "96f6867d-ce1c-4904-8129-e6c9cb7cb1e6": {
+          "type": "popup",
+          "settings": {
+            "icon": "none",
+            "text": "shipping and returns",
+            "page": "product-shipping-and-returns",
+            "text_color": "secondary"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "enable_collapsible_tabs": false,
+            "truncate_description": false
+          }
+        },
+        "b19329b0-2930-4143-854a-595c9032ffc0": {
+          "type": "description-page",
+          "settings": {
+            "page": "copy-of-product-shipping-and-returns"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "enable_payment_button": false,
+            "show_pickup_availability": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "6aca9273-cec9-414c-85be-f23c17936d13": {
+          "type": "share_buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "variant_picker",
+        "c8b1313a-85ee-4210-a299-4b556b3a7b1f",
+        "f33395da-f796-4677-8ebc-1bc63c9febf7",
+        "96f6867d-ce1c-4904-8129-e6c9cb7cb1e6",
+        "description",
+        "b19329b0-2930-4143-854a-595c9032ffc0",
+        "buy_buttons",
+        "price",
+        "6aca9273-cec9-414c-85be-f23c17936d13"
+      ],
+      "settings": {
+        "desktop_image_width": "one-half",
+        "desktop_image_position": "left",
+        "two_images_per_row": false,
+        "first_image_full_width": false,
+        "variant_image_behaviour": "swap",
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "color_scheme": "primary",
+        "override_header_footer_color_scheme": true
+      }
+    },
+    "1644980052e43b116a": {
+      "type": "product-variant",
+      "settings": {}
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "you might also like"
+      }
+    }
+  },
+  "order": [
+    "16408993387cf5c814",
+    "main",
+    "1644980052e43b116a",
+    "product-recommendations"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "164409846022b3be6a": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "title": "Daniel Wester",
+        "text": "<p><em>artist<\/em><\/p>",
+        "text_size_mobile": "text-2xl",
+        "text_size_desktop": "lg:text-6xl",
+        "font": "heading",
+        "text_alignment": "text-left",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_style": "link",
+        "desktop_width": "half",
+        "desktop_alignment": "left",
+        "color_scheme": "primary"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "settings": {
+        "crop": "0",
+        "image_width_desktop": "one_half",
+        "indent_image": true,
+        "show_author": false,
+        "show_date": false,
+        "show_share_buttons": true,
+        "show_tags": false,
+        "show_next_previous_links": true,
+        "color_scheme": "primary",
+        "override_header_footer_color_scheme": false
+      }
+    }
+  },
+  "order": [
+    "164409846022b3be6a",
+    "main"
+  ]
+}

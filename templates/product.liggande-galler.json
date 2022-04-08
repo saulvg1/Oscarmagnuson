@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "main-product-horizontal-gallery": {
+      "type": "main-product-horizontal-gallery",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "option_style": "text_underline",
+            "hide_option_labels": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "acbe171e-b870-4dc2-86c5-e9b4da165de1": {
+          "type": "text",
+          "settings": {
+            "position": "product_extra",
+            "text": "Text block",
+            "font": "body",
+            "text_size": "text-base",
+            "icon": "none"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "enable_payment_button": true,
+            "show_pickup_availability": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "enable_collapsible_tabs": true,
+            "truncate_description": false
+          }
+        },
+        "icon_list": {
+          "type": "icon_list",
+          "disabled": true,
+          "settings": {
+            "position": "product_extra",
+            "heading": "Icon list",
+            "text_color": "secondary",
+            "text_1": "List item",
+            "icon_1": "box",
+            "text_2": "List item",
+            "icon_2": "ruler",
+            "text_3": "List item",
+            "icon_3": "globe",
+            "text_4": "List item",
+            "icon_4": "washing",
+            "text_5": "List item",
+            "icon_5": "truck"
+          }
+        },
+        "share_buttons": {
+          "type": "share_buttons",
+          "disabled": true,
+          "settings": {
+            "position": "product_extra"
+          }
+        },
+        "6b6c4e06-91e4-4192-a791-074af9b4f08a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "position": "product_extra",
+            "heading": "Collapsible tab",
+            "heading_text_style": "heading",
+            "content": "",
+            "page": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "acbe171e-b870-4dc2-86c5-e9b4da165de1",
+        "buy_buttons",
+        "description",
+        "icon_list",
+        "share_buttons",
+        "6b6c4e06-91e4-4192-a791-074af9b4f08a"
+      ],
+      "settings": {
+        "desktop_image_height": 75,
+        "variant_image_behaviour": "scroll",
+        "app_block_area": "product_extra",
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "color_scheme": "primary",
+        "override_header_footer_color_scheme": false
+      }
+    },
+    "marquee": {
+      "type": "marquee",
+      "settings": {
+        "text": "Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.",
+        "repeat_text": true,
+        "link": "",
+        "text_size": "text-2xl lg:text-7xl",
+        "font": "heading",
+        "speed": 150,
+        "direction": "",
+        "color_scheme": "secondary"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "limit": "4",
+        "products_per_row_desktop": "4",
+        "products_per_row_mobile": "1",
+        "color_scheme": "primary"
+      }
+    },
+    "1640901386dc49c56f": {
+      "type": "image-split",
+      "settings": {
+        "image_size": "half",
+        "indent_image_1": false,
+        "crop": "1",
+        "link_1": "",
+        "color_scheme_1": "primary",
+        "caption_1": "",
+        "content_position_1": "justify-center items-center text-center",
+        "text_color_1": "primary",
+        "preserve_ratio_2": false,
+        "indent_image_2": true,
+        "link_2": "",
+        "color_scheme_2": "secondary",
+        "caption_2": "",
+        "content_position_2": "justify-center items-center text-center",
+        "text_alignment_2": "text-left",
+        "text_color_2": "primary"
+      }
+    }
+  },
+  "order": [
+    "main-product-horizontal-gallery",
+    "marquee",
+    "product-recommendations",
+    "1640901386dc49c56f"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "lg:w-2\/3",
+        "content_position": "lg:justify-end",
+        "color_scheme": "primary",
+        "override_header_footer_color_scheme": false
+      }
+    },
+    "1649359502368be2e2": {
+      "type": "custom-links-with-image",
+      "blocks": {
+        "16493595024e91f6f8-0": {
+          "type": "link",
+          "settings": {
+            "link": "",
+            "text": "img",
+            "image": "shopify:\/\/shop_images\/OMS_DanielW-319.jpg"
+          }
+        },
+        "16493595024e91f6f8-1": {
+          "type": "link",
+          "settings": {
+            "link": "",
+            "text": "img",
+            "image": "shopify:\/\/shop_images\/OMS_DanielW-483_filter.jpg"
+          }
+        },
+        "16493595024e91f6f8-2": {
+          "type": "link",
+          "settings": {
+            "link": "",
+            "text": "img",
+            "image": "shopify:\/\/shop_images\/OMS_DanielW-172_filter_8aa04e28-48b6-4299-85ba-bdfa799a35e7.jpg"
+          }
+        },
+        "399fc4dd-660b-4647-80ed-b11ba069b5c3": {
+          "type": "link",
+          "settings": {
+            "link": "",
+            "text": "img",
+            "image": "shopify:\/\/shop_images\/OMS_DanielW-140.jpg"
+          }
+        },
+        "8c3872ec-3c7c-47dc-985d-ef360fd78451": {
+          "type": "link",
+          "settings": {
+            "link": "",
+            "text": "img",
+            "image": "shopify:\/\/shop_images\/OMS_DanielW-68_5ea0b536-c558-43cc-a4b8-94e748e15903.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "16493595024e91f6f8-0",
+        "16493595024e91f6f8-1",
+        "16493595024e91f6f8-2",
+        "399fc4dd-660b-4647-80ed-b11ba069b5c3",
+        "8c3872ec-3c7c-47dc-985d-ef360fd78451"
+      ],
+      "settings": {
+        "text_size_mobile": "text-2xl",
+        "text_size_desktop": "default",
+        "text_alignment": "text-left",
+        "text_position": "items-start",
+        "superscript": "index",
+        "image": "shopify:\/\/shop_images\/OMS_DanielW-483_filter.jpg",
+        "image_position": "right",
+        "image_size": "two_thirds",
+        "fill_image": false,
+        "indent_image": false,
+        "color_scheme": "primary"
+      }
+    },
+    "1649360513401f9ba0": {
+      "type": "text-columns",
+      "settings": {
+        "title": "",
+        "text": "<p>A lot of things become easier when wearing a mask. We can play whatever role we want to. A role that allows us to not feel, to not be vulnerable. We do not need to take responsibility for our actions and behavior. The mask opens up for role-play, where we can explore without risks. I love wearing masks. Different masks for different occasions. The problem in our society, as I see it, is that all the masks we wear, all the roles we play, make us forget ”the essence\" of ourselves. It makes us forget who we really are. We forget how to feel, to really feel. It can be a great thing to be untouchable. In many ways it helps us to cope with our daily life. But when we put on our masks and play our roles too often, it's easy to forget who and what we really are. We shut down our vulnerability, distancing ourselves from us, and build borders into our souls. In my work, I’m trying to be present and honest to myself. I’m putting the mask aside and stepping out of my role. There's no room or interest for role-play in my workshop. There, it's just me. And all the masks and roles I have used since childhood stay outside. It might sound pretentious, but pretentiousness is sometimes pure and beautiful. Some would say that it takes a lot of courage to let go of the mask. I think presence and curiosity is all it takes. In one way everything is much easier when not wearing masks or playing roles. Without the mask, I can let go of control. All my fears and desires and traumas and happiness and sorrows and anxieties and stresses and love and anger can be visible and welcomed when the mask is off. Taking off the mask allows me to be more honest and curious. It allows me to explore. My work is my meditation and my therapy. I used to play a lot of golf. But this works better.<\/p><p><\/p><p><\/p><p><em>Do you separate yourself from your work?<\/em>I’m trying to, and I see a lot of benefits with a sharp line between what I do and who I am. But it is hard. My work is such a big part of my daily life, thinking and working on objects. It's been easier lately though, after becoming a father.<\/p><p><\/p><p><\/p><p><em>Do you consider yourself as an artist or designer? <\/em>I consider myself as a lucky guy. Doing what I love. <\/p><p><\/p><p><\/p><p><em>What is your creative process?<\/em>It always starts with an idea of a form. A form that I have picked up somewhere. From a cloud, or a feeling. From me as a five year old boy, or from the angry man I met earlier that day. I need to translate that form into wood. Into a bowl or a sculpture or a spoon my baby daughter can eat with.I do all my sketching directly in wood. It's easier for me and more straightforward. Sometimes, for larger pieces, I use a chainsaw or other power tools for sketching. It's much faster and it gives me a quick idea of proportions and angles. When I do the final piece I use hand tools only. It allows me to feel the wood and communicate with the wood. To find the directions and lines of the grain. I would say my creative process is very much hands on.<\/p><p><\/p><p><\/p><p><em>What's in the pipeline?<\/em>At the moment I’m working on two upcoming exhibitions.One in London and one in LA.I’m also trying to finish and deliver a couple of commissions.<\/p>",
+        "desktop_columns": "lg:col-count-2",
+        "text_alignment": "text-left",
+        "desktop_text_size": "lg:text-base",
+        "color_scheme": "primary"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1649359502368be2e2",
+    "1649360513401f9ba0"
+  ]
+}

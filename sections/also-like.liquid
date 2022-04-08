@@ -1,0 +1,49 @@
+<div class="also-like-container">
+    <h3 class="variant-images-option product-section-header">{{ section.settings.section_header }}</h3>
+    <div class="recommended-products-container variant-image-container">
+        {% for block in section.blocks %}
+            <div class="rec-product-wrapper">
+            <a href="{{ block.settings.product.url }}">
+                <img src="{{ block.settings.product.featured_image | image_url: width: '1600'}}" alt="{{ block.settings.product.featured_image.alt }}">
+            </a>
+            </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+ {% schema %}
+  {
+      "name":"Also Like",
+      "class": "also-like-section",
+      "tag":"section",
+      "settings":[
+          {
+              "type": "text",
+              "id": "section_header",
+              "label": "Section Header",
+              "default": "you might also like"
+          }
+      ],
+      "blocks": [
+          {
+            "type":"product",
+            "name":"Product",
+            "settings":[
+                {
+                    "type": "product",
+                    "id": "product",
+                    "label": "Recommened Product"
+                }
+            ]
+
+        }
+      ],
+      "presets": [
+        {
+            "name": "Also Like",
+            "category": "Products"
+        }
+      ]
+  }
+  {% endschema %}

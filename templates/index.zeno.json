@@ -1,0 +1,189 @@
+{
+  "sections": {
+    "marquee": {
+      "type": "marquee",
+      "disabled": true,
+      "settings": {
+        "text": "FREE SHIPPING ON ALL ORDERS",
+        "repeat_text": true,
+        "link": "",
+        "text_size": "text-sm",
+        "font": "heading",
+        "speed": 270,
+        "direction": "reverse",
+        "color_scheme": "primary"
+      }
+    },
+    "1642690201ed7044f1": {
+      "type": "featured-navigation",
+      "disabled": true,
+      "settings": {
+        "menu": "collections",
+        "text_size_mobile": "text-2xl",
+        "text_size_desktop": "lg:text-7xl",
+        "display": "paragraph",
+        "paragraph_separator": "emdash",
+        "superscript": "none",
+        "text_alignment": "text-left",
+        "show_image_on_hover": true,
+        "color_scheme": "primary"
+      }
+    },
+    "1642686489ae0f9916": {
+      "type": "video-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0507\/7794\/8350\/files\/kmnomtriptyk_720p.mp4?v=1642687983",
+        "video_style": "full-screen",
+        "video_style_desktop": "cinematic",
+        "fallback_image": "shopify:\/\/shop_images\/KMN_OM_Banner_image.jpg",
+        "title": "lorem ipsum is a dummy text",
+        "heading_size": "text-lg",
+        "text": "",
+        "content_position": "justify-start items-start text-left",
+        "content_width_desktop": "lg:w-1\/3",
+        "text_color": "white",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_style": "link"
+      }
+    },
+    "164812142136fcc0a9": {
+      "type": "image-split",
+      "settings": {
+        "image_size": "half",
+        "image_1": "shopify:\/\/shop_images\/2_sunglasses_image_2.jpg",
+        "indent_image_1": false,
+        "crop": "0",
+        "link_1": "",
+        "color_scheme_1": "secondary",
+        "caption_1": "introducing the new OM.5 collection",
+        "content_position_1": "justify-start items-start text-left",
+        "text_color_1": "primary",
+        "image_2": "shopify:\/\/shop_images\/1_Sunglasses_image_2022.jpg",
+        "preserve_ratio_2": false,
+        "indent_image_2": false,
+        "link_2": "",
+        "color_scheme_2": "secondary",
+        "caption_2": "",
+        "content_position_2": "justify-center items-center text-center",
+        "text_alignment_2": "text-left",
+        "text_color_2": "primary"
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "text": "<p><em>A collaboration frame created by Oscar Magnuson and the 100-year-old Japanese eyewear company KameManNen. <\/em>プロジェクト1 [ P1] は、オスカー・マグナソンと100年の歴史を持つ日本のアイウェアブ ランド　カメマンネンによって企画されたコラボレーション限定版モデルです。<\/p>",
+        "text_size_mobile": "text-xl",
+        "text_size_desktop": "lg:text-2xl",
+        "font": "body",
+        "text_alignment": "text-left",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_style": "link",
+        "desktop_width": "full",
+        "desktop_alignment": "center",
+        "color_scheme": "tertiary"
+      }
+    },
+    "164269455225d565d4": {
+      "type": "marquee",
+      "disabled": true,
+      "settings": {
+        "text": "collections",
+        "repeat_text": true,
+        "link": "",
+        "text_size": "text-2xl",
+        "font": "heading",
+        "speed": 300,
+        "direction": "reverse",
+        "color_scheme": "secondary"
+      }
+    },
+    "164269472057ffe4d5": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "title": "collections",
+        "text": "",
+        "text_size_mobile": "text-2xl",
+        "text_size_desktop": "lg:text-5xl",
+        "font": "body",
+        "text_alignment": "text-left",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_style": "link",
+        "desktop_width": "full",
+        "desktop_alignment": "left",
+        "color_scheme": "primary"
+      }
+    },
+    "16427610267809f6d0": {
+      "type": "navigation-with-image",
+      "disabled": true,
+      "settings": {
+        "menu": "main-menu",
+        "text_size_mobile": "text-2xl",
+        "text_size_desktop": "lg:text-5xl",
+        "text_alignment": "text-left",
+        "text_position": "items-center",
+        "show_image_on_hover": true,
+        "superscript": "none",
+        "image_position": "right",
+        "image_size": "half",
+        "fill_image": false,
+        "indent_image": false,
+        "color_scheme": "primary"
+      }
+    },
+    "1648025860d117084d": {
+      "type": "collection-list",
+      "blocks": {
+        "164802586068963319-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "shop-optical-1",
+            "indent_image": false,
+            "color_scheme": "primary",
+            "content_position": "justify-start items-start text-left",
+            "text_color": "black"
+          }
+        },
+        "164802586068963319-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "shop-sun-1",
+            "indent_image": false,
+            "color_scheme": "primary",
+            "content_position": "justify-start items-start text-left",
+            "text_color": "black"
+          }
+        }
+      },
+      "block_order": [
+        "164802586068963319-0",
+        "164802586068963319-1"
+      ],
+      "settings": {
+        "title": "",
+        "text_size": "text-2xl",
+        "crop": "0.8",
+        "color_scheme": "primary"
+      }
+    }
+  },
+  "order": [
+    "marquee",
+    "1642690201ed7044f1",
+    "1642686489ae0f9916",
+    "164812142136fcc0a9",
+    "rich-text",
+    "164269455225d565d4",
+    "164269472057ffe4d5",
+    "16427610267809f6d0",
+    "1648025860d117084d"
+  ]
+}

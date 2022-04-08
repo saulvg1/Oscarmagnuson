@@ -1,0 +1,109 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "lg:w-1\/2",
+        "content_position": "lg:justify-start",
+        "color_scheme": "primary",
+        "override_header_footer_color_scheme": false
+      }
+    },
+    "16483696886faae747": {
+      "type": "custom-text-page",
+      "blocks": {
+        "164836968811b8f893-0": {
+          "type": "tabs",
+          "settings": {
+            "tab_title": "shipping and returns",
+            "page": "shipping-and-returns",
+            "custom_liquid": ""
+          }
+        },
+        "13da9a76-ef67-4537-a8aa-e598d70ecaf5": {
+          "type": "tabs",
+          "settings": {
+            "tab_title": "size guide",
+            "page": "size-guide",
+            "custom_liquid": ""
+          }
+        },
+        "49d8531a-d1ea-4b4e-b958-90b28fac33cf": {
+          "type": "tabs",
+          "settings": {
+            "tab_title": "faq",
+            "page": "faq",
+            "custom_liquid": ""
+          }
+        },
+        "2d8f8edb-2084-4b62-ace2-28a4d2d2a5b8": {
+          "type": "tabs",
+          "settings": {
+            "tab_title": "contact",
+            "page": "contact-us",
+            "custom_liquid": "<div class=\"section-x-padding py-theme  text-{{ section_color }}-text bg-{{ section_color }}-background\">\n    {%- assign formId = 'ContactForm' -%}\n    {% form 'contact', id: formId %}\n      {% render 'form-status', form: form, form_id: formId, section_color: section_color %}\n      <div class=\"lg:grid lg:grid-cols-2 lg:gap-4\">\n        <div>\n          <label class=\"lg:mt-0 block\" for=\"ContactFormName\">{{ 'contact.form.name' | t }}<\/label>\n          <input type=\"text\"\n            class=\"w-full py-1 bg-transparent border-b-text border-current\"\n            name=\"contact[name]\"\n            id=\"ContactFormName\"\n            value=\"{% if form[name] %}{{ form[name] }}{% elsif customer %}{{ customer.name }}{% endif %}\"\n            required\n            aria-required=\"true\">\n        <\/div>\n        <div>\n          <label class=\"mt-4 lg:mt-0 block\" for=\"ContactFormEmail\">{{ 'contact.form.email' | t }}<\/label>\n          <input type=\"email\"\n            name=\"contact[email]\"\n            id=\"ContactFormEmail\"\n            class=\"w-full py-1 bg-transparent border-b-text border-current {% if form.errors contains 'email' %}border-theme-color{% endif %}\"\n            value=\"{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}\"\n            spellcheck=\"false\"\n            autocomplete=\"off\"\n            autocapitalize=\"off\"\n            required\n            aria-required=\"true\">\n        <\/div>\n      <\/div>\n\n      <label class=\"mt-4 block\" for=\"ContactFormPhone\">{{ 'contact.form.phone' | t }}<\/label>\n      <input type=\"tel\"\n        name=\"contact[phone]\"\n        id=\"ContactFormPhone\"\n        class=\"w-full py-1 bg-transparent border-b-text border-current\"\n        value=\"{% if form[phone] %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}\"\n        pattern=\"[0-9\\-]*\">\n\n      <label class=\"mt-4 block\" for=\"ContactFormMessage\">{{ 'contact.form.message' | t }}<\/label>\n      <textarea rows=\"10\"\n        name=\"contact[body]\"\n        id=\"ContactFormMessage\"\n        required\n        aria-required=\"true\"\n        class=\"block mt-1 p-2 w-full border-text border-current text-sm bg-transparent\">\n        {%- if form.body -%}\n          {{- form.body -}}\n        {%- endif -%}\n      <\/textarea>\n\n      <input type=\"submit\" class=\"mt-4 cursor-pointer px-8 py-2 w-full lg:w-2\/3 {% render 'button-style', section_color: section_color %}  {% render 'button-color', section_color: section_color %}\" value=\"{{ 'contact.form.submit' | t }}\">\n    {% endform %}\n  <\/div>"
+          }
+        },
+        "f86b31ec-2403-4099-967c-7cb37e87943c": {
+          "type": "tabs",
+          "settings": {
+            "tab_title": "about us",
+            "page": "about-us",
+            "custom_liquid": ""
+          }
+        },
+        "25cb46a8-d419-4e05-aa50-44f5c31486e9": {
+          "type": "tabs",
+          "settings": {
+            "tab_title": "eco-friendly eyewear",
+            "page": "eco-friendly-eyewear",
+            "custom_liquid": ""
+          }
+        },
+        "962ec9f4-2b7c-4214-bfc2-bc90edc2ec9b": {
+          "type": "tabs",
+          "settings": {
+            "tab_title": "terms and conditions",
+            "page": "terms-and-conditions",
+            "custom_liquid": ""
+          }
+        },
+        "03ebf91c-8c2a-4203-a0b0-79a6643f5628": {
+          "type": "tabs",
+          "settings": {
+            "tab_title": "privacy policy",
+            "page": "privacy-policy",
+            "custom_liquid": ""
+          }
+        },
+        "17eb66ac-a149-4599-9ce7-c1dcf0a46aea": {
+          "type": "tabs",
+          "settings": {
+            "tab_title": "cookies",
+            "page": "cookies",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "164836968811b8f893-0",
+        "13da9a76-ef67-4537-a8aa-e598d70ecaf5",
+        "49d8531a-d1ea-4b4e-b958-90b28fac33cf",
+        "2d8f8edb-2084-4b62-ace2-28a4d2d2a5b8",
+        "f86b31ec-2403-4099-967c-7cb37e87943c",
+        "25cb46a8-d419-4e05-aa50-44f5c31486e9",
+        "962ec9f4-2b7c-4214-bfc2-bc90edc2ec9b",
+        "03ebf91c-8c2a-4203-a0b0-79a6643f5628",
+        "17eb66ac-a149-4599-9ce7-c1dcf0a46aea"
+      ],
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16483696886faae747"
+  ]
+}

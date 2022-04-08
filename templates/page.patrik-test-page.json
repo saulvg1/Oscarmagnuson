@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "1649169098771f2634": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<p>Project 1 [ P1 ] is the collaboration limited-edition frame created by Oscar Magnuson and the 100 year old Japanese eyewear company KameManNen (KMN X OM). Oscar Magnuson has designed a frame using signature KMN elements, bringing lightweight titanium to the company for the first time. The frame includes bio-acetate which is 100% recyclable and biodegradable. Each KMN X OM frame is first crafted in Japan, then finished in our factory in Italy. This collaboration celebrates the best of Scandinavian and Japanese design with a focus on function and natural materials: minimal expression, maximum statement. <\/p>",
+        "text_size_mobile": "text-2xl",
+        "text_size_desktop": "lg:text-6xl",
+        "font": "body",
+        "text_alignment": "text-left",
+        "cta_link": "",
+        "cta_text": "",
+        "cta_style": "link",
+        "desktop_width": "full",
+        "desktop_alignment": "left",
+        "color_scheme": "primary"
+      }
+    },
+    "16491691093582ae1b": {
+      "type": "custom-links-with-image",
+      "blocks": {
+        "1649169109c5047f6e-0": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/collections\/all",
+            "text": "img",
+            "image": "shopify:\/\/shop_images\/KNMxOM_pose_2.jpg"
+          }
+        },
+        "1649169109c5047f6e-1": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/collections\/all",
+            "text": "Link"
+          }
+        },
+        "1649169109c5047f6e-2": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/collections\/all",
+            "text": "Link"
+          }
+        }
+      },
+      "block_order": [
+        "1649169109c5047f6e-0",
+        "1649169109c5047f6e-1",
+        "1649169109c5047f6e-2"
+      ],
+      "settings": {
+        "text_size_mobile": "text-2xl",
+        "text_size_desktop": "lg:text-3xl",
+        "text_alignment": "text-left",
+        "text_position": "items-start",
+        "superscript": "index",
+        "image": "shopify:\/\/shop_images\/KNMxOM_pose_2.jpg",
+        "image_position": "right",
+        "image_size": "half",
+        "fill_image": false,
+        "indent_image": true,
+        "color_scheme": "primary"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "content_width": "lg:w-1\/2",
+        "content_position": "lg:justify-start",
+        "color_scheme": "primary",
+        "override_header_footer_color_scheme": false
+      }
+    },
+    "16491699197bc29f92": {
+      "type": "text-columns",
+      "settings": {
+        "title": "",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p><p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p><p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "desktop_columns": "lg:col-count-2",
+        "text_alignment": "text-left",
+        "desktop_text_size": "lg:text-lg",
+        "color_scheme": "primary"
+      }
+    }
+  },
+  "order": [
+    "1649169098771f2634",
+    "16491691093582ae1b",
+    "main",
+    "16491699197bc29f92"
+  ]
+}

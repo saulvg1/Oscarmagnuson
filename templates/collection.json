@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "16481987803ce48fc5": {
+      "type": "featured-navigation",
+      "disabled": true,
+      "settings": {
+        "menu": "collections",
+        "text_size_mobile": "text-base",
+        "text_size_desktop": "default",
+        "display": "list",
+        "paragraph_separator": "none",
+        "superscript": "none",
+        "text_alignment": "text-left",
+        "show_image_on_hover": true,
+        "color_scheme": "primary"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "hide_title": true,
+        "show_image": false,
+        "indent_image": false,
+        "crop": "1.3",
+        "image_size": "one-half",
+        "description_position": "under_title",
+        "description_color_scheme": "primary",
+        "grid": 4,
+        "rows": 8,
+        "grid_mobile": "2",
+        "enable_filtering": true,
+        "enable_sorting": false,
+        "linklist": "optical-sun",
+        "capitalize_filters": true,
+        "color_scheme": "primary",
+        "override_header_footer_color_scheme": false
+      }
+    }
+  },
+  "order": [
+    "16481987803ce48fc5",
+    "main"
+  ]
+}

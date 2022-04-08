@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "main-product-horizontal-gallery": {
+      "type": "main-product-horizontal-gallery",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "option_style": "text_underline",
+            "hide_option_labels": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "enable_payment_button": true,
+            "show_pickup_availability": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "enable_collapsible_tabs": false,
+            "truncate_description": false
+          }
+        },
+        "icon_list": {
+          "type": "icon_list",
+          "settings": {
+            "position": "product_extra",
+            "heading": "Icon list",
+            "text_color": "secondary",
+            "text_1": "List item",
+            "icon_1": "box",
+            "text_2": "List item",
+            "icon_2": "ruler",
+            "text_3": "List item",
+            "icon_3": "globe",
+            "text_4": "List item",
+            "icon_4": "washing",
+            "text_5": "List item",
+            "icon_5": "truck"
+          }
+        },
+        "share_buttons": {
+          "type": "share_buttons",
+          "settings": {
+            "position": "product_extra"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "icon_list",
+        "share_buttons"
+      ],
+      "settings": {
+        "desktop_image_height": 65,
+        "variant_image_behaviour": "swap",
+        "app_block_area": "product_extra",
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "color_scheme": "primary",
+        "override_header_footer_color_scheme": false
+      }
+    },
+    "marquee": {
+      "type": "marquee",
+      "settings": {
+        "text": "Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.",
+        "repeat_text": true,
+        "link": "",
+        "text_size": "text-2xl lg:text-7xl",
+        "font": "heading",
+        "speed": 150,
+        "direction": "",
+        "color_scheme": "secondary"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "limit": "4",
+        "products_per_row_desktop": "4",
+        "products_per_row_mobile": "1",
+        "color_scheme": "primary"
+      }
+    }
+  },
+  "order": [
+    "main-product-horizontal-gallery",
+    "marquee",
+    "product-recommendations"
+  ]
+}

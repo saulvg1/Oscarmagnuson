@@ -1,0 +1,97 @@
+<section class="page border-t-grid border-grid-color">
+  <div class="section-x-padding py-theme lg:flex">
+    <div class="cstm-page-text">
+      <div class="cstm-page-heading">
+<!--         <h2 class="font-heading">{{ page.title }}</h2> -->
+      </div>
+      <div class="rte mt-4">
+        
+       <ul class="texttab" id="pagetabs tabs-left">
+        {%- if section.blocks.size > 0 -%}    
+   		 {%- for block in section.blocks -%}          
+          {%- if block.settings.tab_title != blank -%}
+            <li>
+              <a id="{{ block.settings.tab_title | remove:" " }}{{forloop.index0}}">{{ block.settings.tab_title }}</a>
+            </li>
+          {%- endif -%}
+         {%- endfor -%}
+		{%- endif -%}          
+        </ul>
+
+        <div class="tab-content-right">
+          {%- if section.blocks.size > 0 -%}    
+           {%- for block in section.blocks -%}          
+            {%- if block.settings.page != blank -%}
+              <div class="tabcontent" id="{{ block.settings.tab_title | remove:" " }}{{forloop.index0}}C">
+                <p>{{ block.settings.page.content }}</p>
+                {%- if block.settings.custom_liquid != blank -%}
+                    {{ block.settings.custom_liquid }}
+                {%- endif -%}
+              </div>          	  
+            {%- endif -%}
+          	
+           {%- endfor -%}
+          {%- endif -%}
+        </div>
+        
+        <div class="tabs-sidebar"></div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+    "name": "Custom Text Tabs",
+    "max_blocks": 10,
+    "settings": [
+      {
+        "type": "html",
+        "id": "title",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "tabs",
+        "name": "Title",
+        "settings": [
+          {
+            "type": "text",
+            "id": "tab_title",
+            "label": "Title"
+          },
+		  {
+            "id": "page",
+            "type": "page",
+            "label": "Page"
+          },
+		  {
+            "type": "liquid",
+            "id": "custom_liquid",
+            "label": "Custom Liquid"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Text Tabs",
+        "category": "Tabs",
+        "blocks": [
+          {
+            "type": "tabs"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

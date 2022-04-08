@@ -1,0 +1,13 @@
+{% liquid
+    assign font = block.settings.font
+  %}
+  <div class="mt-8 font-{{ font }} size-block product-block-header" {{ block.shopify_attributes }}>
+    <p class="size-header uppercase">Size</p>
+    {% if block.settings.frame_width != blank %}
+        <p class="frame-width">Frame width: {{ block.settings.frame_width }}</p>
+    {% endif %}
+    {% if block.settings.nose_fit != blank %}
+        <p class="frame-width">Nose fit: {{ block.settings.frame_width }}</p>
+    {% endif %}
+
+  </div>

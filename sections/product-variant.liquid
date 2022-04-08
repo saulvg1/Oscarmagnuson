@@ -1,0 +1,31 @@
+{% for option in product.options_with_values %}
+{% if option.name == "color" or option.name == "Color" or option.name == "colors" or option.name == "Colors"%}
+    <section class="variant-images-section dashed-bottom">
+        <h3 class="variant-images-option product-section-header">{{ option.name }}</h3>
+        <div class="variant-image-container">
+            {% for variant in product.variants %}
+                <img src="{{ variant.featured_media | img_url: '600x'}}" alt="{{ variant.featured_media.alt }}">
+            {% endfor %}
+        </div>
+    </section>
+{% endif %}
+{% endfor%}
+
+
+
+ {% schema %}
+  {
+      "name":"Variant Product Images",
+      "class": "variant-images",
+      "settings":[
+      ],
+      "blocks": [],
+      "templates": ["product"],
+      "presets": [
+        {
+            "name": "Variant Product Images",
+            "category": "Product"
+        }
+      ]
+  }
+  {% endschema %}
